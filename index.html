@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- unik title til hver side-->
+    <title>Sulivet</title>
+    <!--udfyld content med en beskrivelse af sidens indhold - unik for hver side - op til ca. 155 karakterer-->
+    <meta name="description" content="forside online magasin">
+    <meta name="keywords" content="budget, SU, penge, husleje, madbudget,spar, sparer, nemmere, opskrifter, billig, madplan, studierabatter, studierabat">
+    <meta name="author" content="Signe">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo-burger">
+                <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+                <!--The toggle() method toggles between hide() and show() for the selected elements. -->
+                <label for="toggle">&#9776;</label>
+
+            </div>
+            <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+            <input type="checkbox" id="toggle" class="hidden">
+
+            <div id="main-nav">
+                <a href="tipsogtrick.html">Tips og tricks</a>
+
+                <div class="dropdown">
+                    <a href="opskrifter.html">Opskrifter</a>
+                    <div class="dropdown-content">
+                        <a href="tortilla.html">Tortilla pizza</a>
+                    </div>
+
+                </div>
+                <a href="studierabatter.html">Studierabatter</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- forside til online magasin mobil start -->
+        <div class="forsidemobil">
+            <img src="images/backgroundpicturemobil.jpg" alt="baggrundsbillede forside">
+            <!--billede fra https://www.pexels.com/da-dk/photo-license/ hvor det er gratis -->
+
+            <div class="forside-tekst-mobil">
+                <h1> Svært ved at få SU’en <br> til at slå til? </h1>
+                <br>
+                <h2>Hos os finder du</h2>
+                <p>
+                    - De bedste studierabatter
+                    <br>
+                    - Tips og tricks til at få SU’en til at række længere
+                    <br>
+                    - Nemme og billige opskrifter
+
+                </p>
+            </div>
+        </div>
+
+        <!-- forside til online magasin mobil slut -->
+
+
+        <!-- forside til online magasin desktop start  -->
+        <div class="forsidedesktop">
+            <img src="images/backgrounddesktop.jpg" alt="baggrundsbillede forside">
+            <div class="forside-tekst-desktop">
+                <h1> Svært ved at få SU’en <br> til at slå til? </h1><br>
+                <h3>Hos os finder du</h3>
+                <p>
+                    - De bedste studierabatter
+                    <br>
+                    - Tips og tricks til at få SU’en til at række længere
+                    <br>
+                    - Nemme og billige opskrifter
+
+                </p>
+            </div>
+        </div>
+
+        <!-- forside til online magasin desktop slut -->
+    </main>
+
+
+    <!-- Footer kode start-->
+
+    <footer class="flex-footer">
+        <div>
+            Su-Livet.dk
+            <br>
+            Skovgaardsgade 5C
+            <br>
+            8000 Aarhus
+            <br>
+            Cvr. 34 14 58 14
+        </div>
+
+        <div>
+            Tlf. 22 99 18 57
+            <br>
+            info@SU-livet.dk
+            <br>
+            Socialemedier
+            <br>
+            Kontakt PR
+        </div>
+
+        <div class="socialemedier">
+
+            <div> <img src="images/facebook.png" alt="facebooklogo"> </div>
+
+            <div> <img src="images/instagram.png" alt="instagramlogo"> </div>
+
+            <div> <img src="images/mail.png" alt="maillogo"> </div>
+        </div>
+
+    </footer>
+
+    <!-- Footer kode slut-->
+
+</body>
+
+</html>

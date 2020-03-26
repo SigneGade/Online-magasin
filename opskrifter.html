@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- unik title til hver side-->
+    <title>Opskrifter</title>
+    <!--udfyld content med en beskrivelse af sidens indhold - unik for hver side - op til ca. 155 karakterer-->
+    <meta name="description" content="Nemme, hurtige og billige opskrifter">
+    <meta name="keywords" content="budget, SU, penge, husleje, madbudget,spar, sparer, nemmere, opskrifter, billig, madplan, studierabatter, studierabat">
+    <meta name="author" content="Signe">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo-burger">
+                <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+
+                <!--The toggle() method toggles between hide() and show() for the selected elements. -->
+                <label for="toggle">&#9776;</label>
+
+            </div>
+            <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+            <input type="checkbox" id="toggle" class="hidden">
+
+            <div id="main-nav">
+                <a href="tipsogtrick.html">Tips og tricks</a>
+
+                <div class="dropdown">
+                    <a href="opskrifter.html">Opskrifter</a>
+                    <div class="dropdown-content">
+                        <a href="tortilla.html">Tortilla pizza</a>
+                    </div>
+
+                </div>
+                <a href="studierabatter.html">Studierabatter</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--grid column til artikel opskrifter.-->
+        <!--billede kreditering til https://www.valdemarsro.dk/ -->
+
+        <div class="grid-container-opskrifter">
+
+            <div class="tortilla">
+                <a href="tortilla.html"><img src="images/tortilla-pizza.jpg" alt="tortilla">
+                </a>
+            </div>
+            <div class="lasagne"> <img src="images/nem-hurtig-lasagne.jpg" alt="lasagne"> </div>
+            <div class="biksemad"> <img src="images/groentsagsbiksemad.jpg" alt="biksemad"></div>
+            <div class="spagetti"> <img src="images/vegetar-bolognese.jpg" alt="vegetar bolognese"></div>
+            <div class="vikingegryde"> <img src="images/vikingegryde.jpg" alt="vikingegryde"></div>
+            <div class="tearte"> <img src="images/kyllingetaerte.jpg" alt="tærte"> </div>
+            <div class="roedpasta"> <img src="images/pasta-penna-arrabiata.jpg" alt="pasta aarabiata"></div>
+            <div class="kyllingpasta"><img src="images/pastasalat-kylling.jpg" alt="pasta kylling"> </div>
+
+
+            <!-- skabelon/den hvide boks bagved billedet-->
+
+            <div class="skabelontortilla">
+                <a href="tortilla.html"> <img src="images/skabelontortilla.png" alt="tortillaopskrift">
+                </a>
+            </div>
+            <div class="skabelonlasagne"> <img src="images/skabelonlasagne.png" alt="lasagne opskrift"> </div>
+            <div class="skabelonbiksemad"> <img src="images/skabelonbiksemad.png" alt="biksemad opskrift"> </div>
+            <div class="skabelonpastakylling"> <img src="images/skabelonpastakylling.png" alt="pastakylling opskrift"> </div>
+            <div class="skabelonpasta"> <img src="images/skabelonpastaaarabiata.png" alt="pastaaaarbiata opskrift"> </div>
+            <div class="skabelonspagetti"> <img src="images/skabelonspagetti.png" alt="vegetar bolognese opskrift"> </div>
+            <div class="skabelontærte"> <img src="images/skabelontearte.png" alt="tærte opsrkift"> </div>
+            <div class="skabelonvikingegryde"> <img src="images/skabelonvikingegryde.png" alt="vikingegryde opskrift"> </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer kode -->
+
+    <footer class="flex-footer">
+        <div>
+            Su-Livet.dk
+            <br>
+            Skovgaardsgade 5C
+            <br>
+            8000 Aarhus
+            <br>
+            Cvr. 34 14 58 14
+        </div>
+
+        <div>
+            Tlf. 22 99 18 57
+            <br>
+            info@SU-livet.dk
+            <br>
+            Socialemedier
+            <br>
+            Kontakt PR
+        </div>
+
+        <div class="socialemedier">
+
+            <div> <img src="images/facebook.png" alt="facebooklogo"> </div>
+
+            <div> <img src="images/instagram.png" alt="instagramlogo"> </div>
+
+            <div> <img src="images/mail.png" alt="maillogo"> </div>
+        </div>
+
+    </footer>
+
+    <!-- Footer kode slut -->
+
+
+
+
+</body>
+
+</html>

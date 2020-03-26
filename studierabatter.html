@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- unik title til hver side-->
+    <title>Studierabatter</title>
+    <!--udfyld content med en beskrivelse af sidens indhold - unik for hver side - op til ca. 155 karakterer-->
+    <meta name="description" content="studierabatter">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo-burger">
+                <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+
+                <!--The toggle() method toggles between hide() and show() for the selected elements. -->
+                <label for="toggle">&#9776;</label>
+
+            </div>
+            <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+            <input type="checkbox" id="toggle" class="hidden">
+
+            <div id="main-nav">
+                <a href="tipsogtrick.html">Tips og tricks</a>
+
+                <div class="dropdown">
+                    <a href="opskrifter.html">Opskrifter</a>
+                    <div class="dropdown-content">
+                        <a href="tortilla.html">Tortilla pizza</a>
+                    </div>
+
+                </div>
+                <a href="studierabatter.html">Studierabatter</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- flexbox til studierabatter-->
+        <div class="flex-container-alle">
+            <div class="flex-container-adidas">
+                <div><img src="images/Adidas_Logo.jpg" alt="adidas logo" style="width: 53%"></div>
+                <div>Det kan være dyrt at have råd til den nyeste mode eller nyt træningstøj.
+                    Få 20% på adidas ved at kopiere koden; <br> T5MZ-Z42K-KWBQ-KRTTK
+                </div>
+            </div>
+
+
+            <div class="flex-container-brugsen">
+                <div><img src="images/Brugsen.jpg" alt="brugsen logo" style="width: 60%"></div>
+                <div> Superbrugsen Vesterbro Torv og Jægergaardsgade Aarhus C.
+                    Få 10% rabat, når du handler dine dagligvarer hos Superbrugsen på Vesterbro Torv og Jægergaardsgade Aarhus C.
+                    <br> Vis dit (digitale) studiekort via Studiz app'en og få studierabat.
+                </div>
+            </div>
+
+
+            <div class="flex-container-aros">
+                <div><img src="images/aros-logo.jpg" alt="aros logo" style="width: 65%"></div>
+                <div> Det behøver ikke være dyrt at interessere sig for kunst som studerende.
+                    Unge under 31 år kan få entre til 110 kr.
+                    Årskort til kun 220 kr. + 1 gratis ledsager inkluderet hver gang.
+                    <br> Det vil sige, at du har tjent din årskort ind allerede ved 2. besøg.
+                </div>
+            </div>
+
+
+            <div class="flex-container-tapashi">
+                <div><img src="images/tapashi.jpg" alt="tapashi logo" style="width: 60%"></div>
+                <div>
+                    Det er dyrt at spise sushi, og særligt på SU. Hos tapashi kan du få 20% på take-away.
+                    Så hvis du en dag har hovedet begravet i bøgerne, og der er ikke er tid til at lave aftensmad, så er Tapashi hurtigt og nemt at få bragt til døren.
+                    <br> Ring og bestil på tlf. (husk at oplys studierabatten).
+                </div>
+            </div>
+
+
+            <div class="flex-container-parfume">
+                <div><img src="images/billigparfume.jpg" alt="parfume logo" style="width: 85%"></div>
+                <div>
+                    Hvis du går op i skønhed og velvære, så giver billigparfume 10% på deres webshop.
+                    Billigparfume har alt fra hårpleje, hudpleje, makeup og parfumer, også til mænd.
+                    <br> Brug koden; 10SA020, når du bestiller online.
+                </div>
+            </div>
+
+
+            <div class="flex-container-hunkemoller">
+                <div><img src="images/hunkemoller-logo1.jpg" alt="hunkemoller logo" style="width: 100%"></div>
+                <div>
+                    Trænger du eller måske din kæreste til at blive forkælet, så hop ind forbi hunkemoller.dk og opnå 15% rabat ved køb over 150 kr.
+                    <br> Brug koden; STUL9Z62IJ2CGQP for at opnå rabatten på hjemmesiden.
+                </div>
+            </div>
+
+
+            <div class="flex-container-stylepit">
+                <div><img src="images/stylepit1.jpg" alt="stylepit logo" style="width: 80%"></div>
+                <div>
+                    Stylepit.dk giver dig 10% på din ordre. Hos stylepit.dk finder du et bredt sortiment med både tøj, sko og accessoires, og et bredt udvalg af kendte mærker.
+                    Alt fra Vero Moda, Tommy Hilfiger, Vagabond, Nike, Puma og Birkenstock.
+                    <br> Brug koden; STU8ESTY13 ved online bestilling.
+                </div>
+            </div>
+
+
+            <div class="flex-container-apple">
+                <div><img src="images/apple1.jpg" alt="apple logo" style="width: 20%"></div>
+                <div>
+                    Står du og skal skifte din gamle computer ud til en macbook, så giver apple 6% rabat ved køb af en macbook, hvilket hurtigt kan spare dig for 1.000 kr. eller mere.
+                    <br> Opnår rabatten ved at henvende dig til din nærmeste Humac.
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Footer kode -->
+
+    <footer class="flex-footer">
+        <div>
+            Su-Livet.dk
+            <br>
+            Skovgaardsgade 5C
+            <br>
+            8000 Aarhus
+            <br>
+            Cvr. 34 14 58 14
+        </div>
+
+        <div>
+            Tlf. 22 99 18 57
+            <br>
+            info@SU-livet.dk
+            <br>
+            Socialemedier
+            <br>
+            Kontakt PR
+        </div>
+
+        <div class="socialemedier">
+
+            <div> <img src="images/facebook.png" alt="facebooklogo"> </div>
+
+            <div> <img src="images/instagram.png" alt="instagramlogo"> </div>
+
+            <div> <img src="images/mail.png" alt="maillogo"> </div>
+        </div>
+
+    </footer>
+    <!-- Footer kode slut -->
+
+</body>
+
+</html>
